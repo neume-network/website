@@ -1,6 +1,5 @@
-# documents
-* A place for all public document
-# guidelines
-* Use .pdf or .md
+# website
+* a place for building out the website
+
 # licence
 * see LICENCE file
