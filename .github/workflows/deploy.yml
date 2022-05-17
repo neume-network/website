@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-      - add-blog
 
 jobs:
   build:
@@ -26,7 +25,7 @@ jobs:
 
       - name: Install dependencies & build
         env:
-          PATH_PREFIX: neume-network-website
+          PATH_PREFIX: website
         run: |
           npm ci
           npm run build
