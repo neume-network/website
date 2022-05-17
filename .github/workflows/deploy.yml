@@ -26,7 +26,7 @@ jobs:
 
       - name: Install dependencies & build
         env:
-          PREFIX_PATH: neume-network-website
+          PATH_PREFIX: neume-network-website
         run: |
           npm ci
           npm run build

@@ -23,12 +23,16 @@ const manifest = isDev
     }
   : JSON.parse(fs.readFileSync(manifestPath, { encoding: 'utf8' }));
 
-const prefixPath = (() => {
-  if (!process.env.PREFIX_PATH) return '';
-  process.env.PREFIX_PATH = process.env.PREFIX_PATH.startsWith('/') ? '' : '/' + process.env.PREFIX_PATH;
-  process.env.PREFIX_PATH += process.env.PREFIX_PATH.endsWith('/') ? '' : '/';
-  return process.env.PREFIX_PATH;
-})()
+const pathPrefix = (() => {
+  if (!process.env.PATH_PREFIX) return "";
+  process.env.PATH_PREFIX = process.env.PATH_PREFIX.startsWith("/")
+    ? ""
+    : "/" + process.env.PATH_PREFIX;
+  process.env.PATH_PREFIX = process.env.PATH_PREFIX.endsWith("/")
+    ? process.env.PATH_PREFIX.slice(0, -1)
+    : process.env.PATH_PREFIX;
+  return process.env.PATH_PREFIX;
+})();
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(readingTime);
@@ -51,13 +55,13 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode('bundledcss', function () {
     return manifest['main.css']
-      ? `<link href="${prefixPath + manifest['main.css']}" rel="stylesheet" />`
+      ? `<link href="${pathPrefix + manifest['main.css']}" rel="stylesheet" />`
       : '';
   });
 
   eleventyConfig.addShortcode('bundledjs', function () {
     return manifest['main.js']
-      ? `<script src="${prefixPath + manifest['main.js']}"></script>`
+      ? `<script src="${pathPrefix + manifest['main.js']}"></script>`
       : '';
   });
 
@@ -150,6 +154,6 @@ module.exports = function (eleventyConfig) {
     templateFormats: ['html', 'njk', 'md'],
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
-    prefixPath
+    pathPrefix
   };
 };
