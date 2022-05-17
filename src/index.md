@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 'Eleventy Duo'
+title: 'Neume Network Blog'
 ---
 
 # Blog by *neume*
