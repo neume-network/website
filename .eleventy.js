@@ -23,6 +23,13 @@ const manifest = isDev
     }
   : JSON.parse(fs.readFileSync(manifestPath, { encoding: 'utf8' }));
 
+const prefixPath = (() => {
+  if (!process.env.PREFIX_PATH) return '';
+  process.env.PREFIX_PATH = process.env.PREFIX_PATH.startsWith('/') ? '' : '/' + process.env.PREFIX_PATH;
+  process.env.PREFIX_PATH += process.env.PREFIX_PATH.endsWith('/') ? '' : '/';
+  return process.env.PREFIX_PATH;
+})()
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(readingTime);
   eleventyConfig.addPlugin(pluginRss);
@@ -44,13 +51,13 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode('bundledcss', function () {
     return manifest['main.css']
-      ? `<link href="${manifest['main.css']}" rel="stylesheet" />`
+      ? `<link href="${prefixPath + manifest['main.css']}" rel="stylesheet" />`
       : '';
   });
 
   eleventyConfig.addShortcode('bundledjs', function () {
     return manifest['main.js']
-      ? `<script src="${manifest['main.js']}"></script>`
+      ? `<script src="${prefixPath + manifest['main.js']}"></script>`
       : '';
   });
 
@@ -143,5 +150,6 @@ module.exports = function (eleventyConfig) {
     templateFormats: ['html', 'njk', 'md'],
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
+    prefixPath
   };
 };
