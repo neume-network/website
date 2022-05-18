@@ -13,7 +13,7 @@
 
 body {
   font-size: var(--text-lg);
-  line-height: 1.54;
+  line-height: 1.44;
   color: var(--color);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -21,7 +21,7 @@ body {
   font-variant-ligatures: contextual;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Helvetica Neue Light', Arial, sans-serif;
 }
 
 h1,
