@@ -78,12 +78,22 @@ a:hover {
   color: var(--accent);
 }
 
+* ol {
+  margin-top: 1rem;
+}
+
 ol {
   list-style-position: inside;
 }
 
 ol ol {
+  margin-top: unset;
+  margin-left: 1.5rem;
   list-style-type: lower-alpha;
+}
+
+* ul {
+  margin-top: 1rem;
 }
 
 ul {
@@ -126,17 +136,20 @@ td:only-child {
 
 * + h1,
 * + h2 {
-  margin-top: 5rem;
-}
-
-* + h3,
-* + h4,
-* + h5 {
   margin-top: 3rem;
 }
 
-* + p {
+* + h3 {
   margin-top: 2rem;
+}
+
+* + h4,
+* + h5 {
+  margin-top: 1.5rem;
+}
+
+* + p {
+  margin-top: 1.5rem;
 }
 
 h2 + p,
