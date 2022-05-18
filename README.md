@@ -1,5 +1,5 @@
 # website
-* a place for building out the website
+* a place for building out the website.
 
 # licence
-* see LICENCE file
+* see LICENCE file.
