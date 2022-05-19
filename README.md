@@ -15,5 +15,9 @@ This website is powered by [11ty](https://www.11ty.dev/).
    3. `socialImage`: This is the image that will be used for social media sharing. If left blank the default image will be used.
 4. Add the images to the `src/images` directory and reference it as `/images/<your-image>`
 
+## Website Analytics
+
+We use GDPR-compliant cookieless website analytics provided by Plausible and can be seen [here](https://plausible.io/neume.network)
+
 # licence
 * see LICENCE file.
