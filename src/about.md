@@ -1,7 +1,7 @@
 ---
-title: About Neume Network
+title: neume
 layout: about.njk
-name: Neume Network
+name: neume
 ---
 
 Web3 Music has developed significantly since the early days of 2015/16. Intial ideas have become relatively successful experiments attracting [c.$90m](https://docs.google.com/presentation/d/1YFGL73BMfVtgM3dOR8wRmOoXYC-d7AHRcq5rQENg5l0/edit?usp=sharing) in primary sales of music NFTs in 2021. Social tokens are starting to power artist owned universes for their fans,such as [racOS](https://rac.fm/). 
@@ -19,3 +19,5 @@ The current state of art constrains developers that are seeking to build experie
 neume is solving these challenges through [social scalability](http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html) by facilitating an implementation process that seeds and builds the momentum of decentralised contribution.
 
 We believe that neume will be part of the solution to unlock the next phase of growth of the Web3 Music industry by providing open infrastructure that brings scale benefits to experimentation.
+
+neume is an open source project supported by [HIFI Labs](https://www.hifilabs.co/)
