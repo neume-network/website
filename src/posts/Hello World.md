@@ -64,7 +64,7 @@ As has been said many times, we are very early on this collective journey toward
 
 Activity towards this goal is already underway and we’d love your help. 
 
-- neume [github](https://www.github.com/neumenetwork): take a look and see if there’s anything you can contribute towards.
+- neume [github](https://www.github.com/neume-network): take a look and see if there’s anything you can contribute towards.
 - neume section within the [HIFI discord](https://discord.gg/P5rrpZN4ds): come and join the discussion.
 
 Success for neume comes through collaboration; to this end we are rolling out an [Open Tasks Board](https://github.com/orgs/neume-network/projects/2) that catalogues issues available for open source development. Equally, we’d love to chat if you have any ideas or think you can assist in its development in a more involved capacity.
