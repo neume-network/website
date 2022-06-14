@@ -103,7 +103,7 @@ know what we want: It has to be embedded, meaning it cannot ask for additional
 installation or configuration of a neume network user. And it has to be able to
 handle many writes - ideally concurrently and even within separate threads.
 
-So to recapitulate, another unsolved problem in the neume network ecosystem is
+So to recap, another unsolved problem in the neume network ecosystem is
 integrating a fitting embedded database into the stack towards enabling
 [Hifilabs](https://www.hifilabs.co/)'s [music-os](https://musicos.mirror.xyz/)
 use-case of showing "the latest tracks."
