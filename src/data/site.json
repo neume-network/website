@@ -7,6 +7,7 @@
     "email": "contact@neume.network",
     "twitterHandle": "neumenetwork"
   },
+  "defaultSocialImage": "/images/logo.jpg",
   "headerLinks": [
     {
       "text": "Blog",
