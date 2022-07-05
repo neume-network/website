@@ -6,23 +6,17 @@ description: Detailing the preferred channels and processes for engagement with 
 permalink: posts/{{ title | slug }}/index.html
 ---
 
-# Engaging with neume
-
 neume, as an open-source project, is dependent on the community surrounding it. As the project develops it’s important that we grow and refine the basis on which the community is encouraged to engage.
 
 ## Discussion
 
 Currently we have three preferred communication channels:
 
-1. On-going **text chat** within the neume channels in the [HIFI Labs discord](https://discord.gg/P5rrpZN4ds)
-- Any and all questions around the project can be asked, across #neume-dev (technical) and #neume-chat (general)
-- The neume core team often provide ad-hoc updates and requests to the community for discussion
+- On-going **text chat** within the neume channels in the [HIFI Labs discord](https://discord.gg/P5rrpZN4ds): Any and all questions around the project can be asked, across #neume-dev (technical) and #neume-chat (general). The neume core team often provide ad-hoc updates and requests to the community for discussion.
 
-2. **"neume open office hours"** audio sessions once every two weeks, held within the neume-office channel in the [HIFI Labs discord](https://discord.gg/P5rrpZN4ds)
-- An opportunity for the community to ask specific questions and spark discussion around ideas in a voice chat format
-- Previous open office hours are recorded and saved in the #neume-achives channel on discord
+- **"neume open office hours"** audio sessions once every two weeks, held within the neume-office channel in the [HIFI Labs discord](https://discord.gg/P5rrpZN4ds): An opportunity for the community to ask specific questions and spark discussion around ideas in a voice chat format. Previous open office hours are recorded and saved in the #neume-achives channel on discord.
 
-3. This **blog** where the neume core team will give regular updates on progress and direction
+- This **blog** where the neume core team will give regular updates on progress and direction
 
 The neume core team are also relatively active on Twitter if that is your preferred format ([Tim](https://twitter.com/timdaub), [Dan](https://twitter.com/dan_djfnd_)), and we plan to ramp up activity through the [neume](https://twitter.com/neumenetwork) Twitter in good time.
 
