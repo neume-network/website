@@ -18,7 +18,7 @@ Currently we have three preferred communication channels:
     - The neume core team often provide ad-hoc updates and requests to the community for discussion
 - **"neume open office hours"** audio sessions once every two weeks, held within the neume-office channel in the [HIFI Labs discord](https://discord.gg/P5rrpZN4ds)
     - An opportunity for the community to ask specific questions and spark discussion around ideas in a voice chat format
-    - Previous open office hours are recording and saved in the #neume-achives channel on discord
+    - Previous open office hours are recorded and saved in the #neume-achives channel on discord
 - This **blog** where the neume core team will give regular updates on progress and direction
 
 The neume core team are also relatively active on twitter if that is your preferred format ([Tim](https://twitter.com/timdaub), [Dan](https://twitter.com/dan_djfnd_)), and we plan to ramp up activity through the [neume](https://twitter.com/neumenetwork) twitter in good time.
