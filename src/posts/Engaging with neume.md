@@ -21,7 +21,7 @@ Currently we have three preferred communication channels:
     - Previous open office hours are recorded and saved in the #neume-achives channel on discord
 - This **blog** where the neume core team will give regular updates on progress and direction
 
-The neume core team are also relatively active on twitter if that is your preferred format ([Tim](https://twitter.com/timdaub), [Dan](https://twitter.com/dan_djfnd_)), and we plan to ramp up activity through the [neume](https://twitter.com/neumenetwork) twitter in good time.
+The neume core team are also relatively active on Twitter if that is your preferred format ([Tim](https://twitter.com/timdaub), [Dan](https://twitter.com/dan_djfnd_)), and we plan to ramp up activity through the [neume](https://twitter.com/neumenetwork) Twitter in good time.
 
 ## Contributing
 
