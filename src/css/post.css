@@ -1,16 +1,23 @@
 .post {
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 700px;
 }
 
 .post > * + * {
-  margin-top: 4rem;
 }
 
+.post__header h1,
+h2 {
+  color: var(--white);
+  font-size: 2rem;
+  line-height: 2rem;
+}
 .post__details {
-  opacity: 0.6;
   font-size: 0.9rem;
+  color: var(--yellow);
 }
 
 .post__details > * + * {
@@ -18,7 +25,14 @@
 }
 
 .post__content {
+  margin-top: 1rem;
   word-wrap: break-word;
+}
+
+.post__content p,
+li {
+  font-size: var(--text-lg);
+  line-height: calc(var(--text-lg) * 1.1);
 }
 
 .post__aside {

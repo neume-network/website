@@ -2,13 +2,6 @@
   {% for post in postslist | reverse %}
     <li class="post-list__item">
       <div>
-        <div class="post-list__meta">
-          <time datetime="{{ post.date | htmlDateString }}">
-            {{ post.date | readableDate }}
-          </time>
-          <span> | </span>
-          <span>{{ post | readingTime }} read</span>
-        </div>
 
         <div class="post-list__tags">
           {% for tag in post.data.tags %}
@@ -23,6 +16,14 @@
       <h3 class="post-list__title">
         <a  href="{{ post.url | url }}">{{ post.data.title }}</a>
       </h3>
+
+      <div class="post-list__meta">
+        <time datetime="{{ post.date | htmlDateString }}">
+          {{ post.date | readableDate }}
+        </time>
+        <span> | </span>
+        <span>{{ post | readingTime }} read</span>
+      </div>
 
       <p class="post-list__excerpt">{{ post.templateContent | excerpt | safe  }}</p>
 

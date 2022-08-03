@@ -75,7 +75,7 @@ a {
 }
 
 a:hover {
-  color: var(--accent);
+  color: var(--yellow);
 }
 
 * ol {
@@ -97,7 +97,7 @@ ol ol {
 }
 
 ul {
-  list-style-type: square;
+  list-style-type: disc;
   list-style-position: inside;
 }
 
@@ -175,6 +175,10 @@ blockquote {
   font-style: italic;
 }
 
+strong {
+  font-weight: bold;
+}
+
 pre {
   white-space: pre-wrap;
   tab-size: 2;
@@ -219,7 +223,7 @@ pre::-webkit-scrollbar-thumb {
 
 pre,
 code {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
 }
 
 pre code {
@@ -241,4 +245,12 @@ mark {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+li > ul {
+  list-style-type: circle;
+}
+
+li > ul > li {
+  margin-left: 10px;
 }
