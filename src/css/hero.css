@@ -24,7 +24,6 @@
 }
 
 .hero__social-links > li {
-  /* margin-right: 2rem; */
   margin-top: 0rem;
   color: var(--purple);
 }
@@ -61,7 +60,6 @@
 .hero__skip-link svg {
   transition: opacity 0.2s ease-in-out;
   stroke: rgb(0, 0, 0, 0.4);
-  /* color: rgb(41, 41, 41); */
 }
 
 .intro {
