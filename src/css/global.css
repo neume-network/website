@@ -6,6 +6,7 @@ html {
 
 body {
   background-color: var(--background);
+  background-color: var(--white);
 }
 
 body::-webkit-scrollbar {
