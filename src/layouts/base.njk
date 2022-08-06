@@ -100,9 +100,11 @@
         {{ content | safe }}
       </main>
 
-      <footer class="footer" style="background-image:url(/images/neume-graphic-1.png);">
+      <footer class="footer"
+       {#style="background-image:url(/images/neume-graphic-1.png);" #}
+       >
         <div class="footer__content">
-
+          <img src="../../images/neume-wordmark-black.svg" style="width:100px;"/>
           <ul class="hero__social-links">
             {% if site.socialLinks %}
               {% for item in site.socialLinks %}

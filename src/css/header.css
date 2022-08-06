@@ -14,6 +14,7 @@
   max-width: 48.75rem;
   padding: 1rem 1.5rem;
   margin-top: 1rem;
+  min-height: 15rem;
 }
 
 .header-image__wrapper {
@@ -60,7 +61,7 @@
 }
 
 .nav__list a {
-  color: var(--purple);
+  color: var(--white);
   text-decoration: none;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -77,5 +78,5 @@
 }
 
 .nav__list a:hover {
-  color: var(--yellow);
+  color: var(--purple);
 }

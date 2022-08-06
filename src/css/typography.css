@@ -14,7 +14,7 @@
 body {
   font-size: var(--text-lg);
   line-height: 1.44;
-  color: var(--color);
+  color: var(--charcoal);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";

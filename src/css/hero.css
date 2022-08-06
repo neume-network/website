@@ -66,6 +66,8 @@
   display: flex;
   font-weight: bold;
   font-size: 1.2rem;
+  padding-top: 30px;
+  color: var(--charcoal);
 }
 
 .intro > img {
