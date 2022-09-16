@@ -8,7 +8,7 @@ Web3 Music has developed significantly since the early days of 2015/16. Intial i
 
 However, challenges remain. Specifically in:
 * Normalising differing approaches to the definition of NFTs, from metadata through to type of NFT, be it a 1:1, series, or something different all together
-* Identity and mapping accross linked accounts is currently unsolved as a area of development, though there are significant promising projects, ranging from self-sovereign identity solutions, such as [disco.xyz](https://www.disco.xyz/), through to ambitions towards a ["soul-bound" decentralised society](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4105763)
+* Identity and mapping accross linked accounts is currently unsolved as a area of development, though there are significant promising projects, ranging from self-sovereign identity solutions, such as [Verifiable Credentials](https://www.w3.org/TR/vc-data-model/), through to ambitions towards a ["soul-bound" decentralised society](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4105763)
 * Complex rights and permissions are currently relatively ignored from an on-chain perspective, with resolution occuring offchain (if at all). There has been a push towards CC0 as a proposed solution for the arts in Web3, however, it's likely that a more nuanced solution is required for wider adoption. 
 
 The current state of art constrains developers that are seeking to build experiences on top of these new primatives:
