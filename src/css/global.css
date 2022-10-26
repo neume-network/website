@@ -6,7 +6,6 @@ html {
 
 body {
   background-color: var(--background);
-  background-color: var(--white);
 }
 
 body::-webkit-scrollbar {
@@ -73,10 +72,11 @@ a {
   text-decoration: inherit;
   transition: all 200ms linear;
   text-decoration: underline;
+  opacity: 0.9;
 }
 
 a:hover {
-  color: var(--yellow);
+  opacity: 1;
 }
 
 * ol {
@@ -172,7 +172,7 @@ blockquote {
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding-left: 1rem;
-  border-left: 3px solid var(--accent);
+  border-left: 3px solid var(--green);
   font-style: italic;
 }
 

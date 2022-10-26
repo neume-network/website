@@ -2,7 +2,21 @@
   max-width: none;
   width: 100%;
   background-size: cover;
+  position: relative;
 }
+
+.header::before {
+  background: var(--charcoal);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  position: absolute;
+  z-index: 0;
+  opacity: 0.5;
+}
+
 
 .header__content {
   display: flex;
@@ -15,6 +29,8 @@
   padding: 1rem 1.5rem;
   margin-top: 1rem;
   min-height: 15rem;
+  z-index: 1;
+  position: relative;
 }
 
 .header-image__wrapper {
@@ -61,10 +77,12 @@
 }
 
 .nav__list a {
+  font-size: var(--text-2xl);
   color: var(--white);
   text-decoration: none;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  display: inline-block;
+
+  margin-bottom: 1.25rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -78,5 +96,5 @@
 }
 
 .nav__list a:hover {
-  color: var(--purple);
+  color: var(--green);
 }

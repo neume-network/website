@@ -1,6 +1,7 @@
 .hero {
   display: flex;
   flex-direction: column;
+
 }
 
 .hero h1 {
@@ -25,7 +26,7 @@
 
 .hero__social-links > li {
   margin-top: 0rem;
-  color: var(--purple);
+  color: var(--green);
 }
 
 .hero__social-links img {
@@ -38,8 +39,15 @@
 }
 
 .icon-white-mask {
-  background-color: var(--white);
+  background-color: var(--charcoal);
   border-radius: 50%;
+  opacity: 0.9;
+}
+
+.icon-white-mask:hover {
+
+  opacity: 1;
+
 }
 
 .hero__skip-link {
@@ -67,12 +75,13 @@
   font-weight: bold;
   font-size: 1.2rem;
   padding-top: 30px;
-  color: var(--charcoal);
+  color: var(--white);
 }
 
 .intro > img {
   width: 130px;
   padding-right: 30px;
+  filter: invert(1);
 }
 
 @media screen and (max-width: 768px) {

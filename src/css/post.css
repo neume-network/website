@@ -6,7 +6,8 @@
   max-width: 700px;
 }
 
-.post > * + * {
+.post__header {
+  margin-top: 3rem;
 }
 
 .post__header h1,
