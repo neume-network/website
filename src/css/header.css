@@ -33,14 +33,10 @@
   position: relative;
 }
 
-.header-image__wrapper {
-  position: relative;
-}
 
-.header-image__wrapper .white-header {
-  position: absolute;
-  left: -3px;
-  top: -3px;
+
+.header-image__wrapper img {
+  filter: drop-shadow(3px 3px var(--green));
 }
 
 .site-title {
@@ -78,7 +74,7 @@
 
 .nav__list a {
   font-size: var(--text-2xl);
-  color: var(--white);
+  color: #fff;
   text-decoration: none;
   display: inline-block;
 
