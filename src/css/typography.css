@@ -14,7 +14,7 @@
 body {
   font-size: var(--text-lg);
   line-height: 1.44;
-  color: var(--charcoal);
+  color: var(--white);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
@@ -32,7 +32,7 @@ h5,
 h6 {
   line-height: 1.3;
   font-weight: 400;
-  color: rgb(41, 41, 41);
+  color: var(--white);
 }
 
 h1 {
