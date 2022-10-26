@@ -65,6 +65,9 @@
 .post-list__meta {
   font-size: var(--text-sm);
   margin-top: 0.5rem;
+  opacity: 0.75;
+
+
 
 }
 
