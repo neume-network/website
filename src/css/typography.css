@@ -14,14 +14,14 @@
 body {
   font-size: var(--text-lg);
   line-height: 1.44;
-  color: var(--color);
+  color: var(--white);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  font-feature-settings: 'liga', 'tnum', 'case', 'calt', 'zero', 'ss01', 'locl';
+  font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
   font-variant-ligatures: contextual;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  font-family: 'Helvetica Neue Light', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 h1,
@@ -32,7 +32,7 @@ h5,
 h6 {
   line-height: 1.3;
   font-weight: 400;
-  color: rgb(41, 41, 41);
+  color: var(--white);
 }
 
 h1 {

@@ -1,9 +1,9 @@
 .footer {
-  padding-bottom: 4rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 2rem;
   max-width: none;
   width: 100%;
+  background-size: cover;
+  transform: rotate(180deg);
 }
 
 .footer__content {
@@ -15,7 +15,7 @@
   max-width: 48.75rem;
   width: 100%;
   font-size: var(--text-base);
-  border-top: 1px solid rgba(230, 230, 230, 1);
+  transform: rotate(180deg);
 }
 
 .footer__content > * {
@@ -32,5 +32,4 @@
 }
 
 .footer li {
-  margin-right: 2rem;
 }

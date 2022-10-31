@@ -1,16 +1,27 @@
 .post {
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 700px;
 }
 
-.post > * + * {
-  margin-top: 4rem;
+.post__header {
+  margin-top: 3rem;
 }
+
+.post__header h1,
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
 
 .post__details {
-  opacity: 0.6;
   font-size: 0.9rem;
+  color: var(--charcoal);
+  margin-top: 0.5rem;
 }
 
 .post__details > * + * {
@@ -18,7 +29,15 @@
 }
 
 .post__content {
+  margin-top: 1rem;
   word-wrap: break-word;
+  /* color: var(--charcoal); */
+}
+
+.post__content p,
+li {
+  font-size: var(--text-lg);
+  line-height: calc(var(--text-lg) * 1.1);
 }
 
 .post__aside {

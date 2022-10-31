@@ -1,3 +1,14 @@
+.about {
+  max-width: 700px;
+}
+
 .about h1 {
   margin-bottom: 2rem;
+  color: var(--white);
+}
+
+.about p,
+li {
+  font-size: var(--text-lg);
+  line-height: calc(var(--text-lg) * 1.1);
 }

@@ -15,54 +15,64 @@
 }
 
 .post-list__wrapper {
-  margin-top: 6rem;
+  max-width: 700px;
 }
 
 .post-list__heading {
+  color: var(--color);
   font-size: var(--text-3xl);
   margin-bottom: 1rem;
 }
 
 .post-list {
   list-style: none;
+  max-width: 700px;
 }
 
 .post-list__item {
   display: flex;
   flex-direction: column;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
-  border-top: 1px solid rgba(230, 230, 230, 1);
+  padding-bottom: 0rem;
+  padding-top: 2rem;
+  color: var(--white);
+}
+
+.post-list__item:first-child {
+  padding-top: 1rem;
 }
 
 .post-list__item:last-child {
-  border-bottom: 1px solid rgba(230, 230, 230, 1);
 }
 
 .post-list__title {
   font-size: var(--text-2xl);
+  line-height: var(--text-2xl) !important;
   margin-top: 0.5rem;
 }
 
 .post-list__title a {
-  font-weight: normal;
+  font-weight: bold;
   text-decoration: none;
-  color: rgb(41, 41, 41);
+  letter-spacing: 0.1px;
+
 }
 
 .post-list__title a:hover {
-  /* color: var(--accent); */
   text-decoration: underline;
+  color: var(--green);
 }
 
 .post-list__meta {
   font-size: var(--text-sm);
-  margin-top: 1rem;
-  color: rgb(117, 117, 117);
+  margin-top: 0.5rem;
+  opacity: 0.75;
+
+
+
 }
 
 .post-list__meta > * + * {
-  margin-left: 1rem;
+  margin-left: 0.2rem;
 }
 
 .post-list__tags {
@@ -85,20 +95,24 @@
 }
 
 .post-list__excerpt {
-  margin-top: 1rem;
-  color: rgba(0, 0, 0, 0.8);
+  margin-top: 0.5rem;
+  line-height: calc(var(--text-lg) * 1.1);
+  /* color: var(--color); */
 }
 
 .post-list__read-more {
   width: fit-content;
-  font-size: 1rem;
+  font-size: var(--text-lg);
+  font-weight: 500;
   text-transform: capitalize;
-  margin-top: 1rem;
-  text-decoration: underline;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: var(--green);
 }
 
 .post-list__read-more:hover {
   text-decoration: underline;
+
 }
 
 .all-posts-link {
@@ -109,5 +123,10 @@
   margin-right: auto;
   font-size: var(--text-lg);
   text-decoration: underline;
-  color: currentColor;
+  color: var(--charcoal);
+  background: var(--green);
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 28px;
 }
+
