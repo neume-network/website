@@ -1,4 +1,5 @@
 
+const fetch = require('node-fetch');
 const API = `https://v2.api.musicos.xyz/api`
 
 
