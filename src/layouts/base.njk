@@ -3,41 +3,33 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="canonical" href={{ page.url | url | absoluteUrl(site.url) }}>
-
-    {% bundledcss %}
-
+    <link rel="canonical" href={{ page.url | url | absoluteUrl(site.url) }}> {% bundledcss %}
     <title>
-      {{  title  | escape }}
+      {{ title  | escape }}
       {% if title %}
-         | {{ site.name }}
+        | {{ site.name }}
       {% else %}
         {{ site.name }}
       {% endif %}
     </title>
-
-    <link rel="icon" type= “image/x-icon” href="{{"/images/favicon.png" | url}}">
-
-    <meta property="og:title" content="{{  title or site.name | escape }}">
+    <link rel="icon" type="“image/x-icon”" href="{{ "/images/favicon.png" | url }}">
+    <meta property="og:title" content="{{ title or site.name | escape }}">
     <meta property="og:site_name" content="{{ site.name }}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="{{ site.url + page.url }}"/>
     <meta name="twitter:card" content="summary_large_image">
-
     {% if site.author.twitterHandle %}
       <meta name="twitter:creator" content="@{{ site.author.twitterHandle | replace('@', '') }}"/>
     {% endif %}
-
     {% set desc = description %}
     {% if not desc %}
       {% set desc = content | striptags | truncate(140) %}
     {% endif %}
     {% if desc %}
-      <meta name="description" content="{{ desc | escape  }}">
+      <meta name="description" content="{{ desc | escape }}">
       <meta property="og:description" content="{{ desc | escape }}">
       <meta name="description" content="{{ desc | escape }}"/>
     {% endif %}
-
     {% if not socialImage %}
       {% set socialImage = site.defaultSocialImage %}
     {% endif %}
@@ -45,103 +37,83 @@
       <meta property="og:image" content="{{ socialImage | url | absoluteUrl(site.url) }}"/>
       <meta name="twitter:image" content="{{ socialImage | url | absoluteUrl(site.url) }}"/>
     {% endif %}
-
     <script defer data-domain="neume.network" src="https://neume.network/neume/js/info.js"></script>
-
-    <!-- Uncomment to enable mermaid
-    {# Add mermaid -- start #}
-      <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-      <script>mermaid.initialize({startOnLoad:true});</script>
-    {# Add mermaid -- end #}
-    -->
+    <!-- Uncomment to enable mermaid {# Add mermaid -- start #} <script
+    src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script> {# Add mermaid -- end #} -->
   </head>
   <body>
     <div class="layout-wrapper">
-
       <header class="header" style="background-image:url(/images/neume-graphic-1.png);">
         <div class="header__content">
           <h1 class="site-title">
-            <a class="header-image__wrapper" href={{ "/" | url }}>
+            <a
+              class="header-image__wrapper" href={{ "/" | url }}>
               {# {{site.name}} #}
-              <img src="/images/neume-wordmark-white.svg" alt={{site.name}}/>
+              <img src="/images/neume-wordmark-white.svg" alt={{ site.name }}/>
             </a>
           </h1>
-
           {% if site.headerLinks %}
             <nav class="nav">
               <ul class="nav__list">
+                <li class="nav-item">
+                  <a href="/">HOME</a>
+                </li>
                 {% for item in site.headerLinks %}
                   {% set currentAttribute = '' %}
                   {% set externalAttribute = '' %}
-
                   {% if item.external %}
                     {% set externalAttribute = 'target="_blank" rel="noopener noreferrer"' %}
                   {% endif %}
-
                   {% if page.url == item.url %}
                     {% set currentAttribute = 'aria-current="page"' %}
                   {% endif %}
-
                   <li class="nav-item">
                     <a href="{{ item.url | url }}" {{ currentAttribute | safe }} {{ externalAttribute | safe }}>{{ item.text }}</a>
                   </li>
                 {% endfor %}
               </ul>
             </nav>
-
           {% endif %}
-
         </div>
       </header>
-
       <main class="main">
         {{ content | safe }}
       </main>
-
-      <footer class="footer"
-       {#style="background-image:url(/images/neume-graphic-1.png);" #}
-       >
+      <footer class="footer" {#style="background-image:url(/images/neume-graphic-1.png);" #}>
         <div class="footer__content">
           <img src="../../images/neume-wordmark-white.svg" style="width:100px;"/>
           <ul class="hero__social-links">
             {% if site.socialLinks %}
               {% for item in site.socialLinks %}
                 {% set externalAttribute = '' %}
-
                 {% if item.external %}
                   {% set externalAttribute = 'target="_blank" rel="noopener noreferrer"' %}
                 {% endif %}
-
                 <li>
-
-                  <a href="{{ item.url | url }}" {{ externalAttribute | safe }} >
-                    <img class="icon-white-mask" alt="{{item.text}}" src="../../images/{{item.text}}-icon.svg"/></a>
+                  <a href="{{ item.url | url }}" {{ externalAttribute | safe }}>
+                    <img class="icon-white-mask" alt="{{ item.text }}" src="../../images/{{ item.text }}-icon.svg"/>
+                  </a>
                 </li>
               {% endfor %}
             {% endif %}
-
             {% if site.footerLinks %}
-
               {% for item in site.footerLinks %}
                 {% set externalAttribute = '' %}
-
                 {% if item.external %}
                   {% set externalAttribute = 'target="_blank" rel="noopener noreferrer"' %}
                 {% endif %}
-
                 <li>
-                  <a href="{{ item.url | url }}" {{ externalAttribute | safe }} >
-                    <img class="icon-white-mask" alt="{{item.text}}" src="../../images/{{item.text}}-icon.svg"/></a>
+                  <a href="{{ item.url | url }}" {{ externalAttribute | safe }}>
+                    <img class="icon-white-mask" alt="{{ item.text }}" src="../../images/{{ item.text }}-icon.svg"/>
+                  </a>
                 </li>
               {% endfor %}
             {% endif %}
           </ul>
-
         </div>
       </div>
-
     </footer>
-
     {% bundledjs %}
   </body>
 </html>
