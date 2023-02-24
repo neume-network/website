@@ -4,7 +4,7 @@ const API = `https://v2.api.musicos.xyz/api`
 
 
 const getLatestTracks = async (count = 10) => {
-  const response = await fetch(API + `/distinct-tracks?pagination[page]=1&pagination[pageSize]=${count}&sort=createdAt:desc`)
+  const response = await fetch(API + `/distinct-tracks?pagination[page]=1&pagination[pageSize]=${count}&sort=createdAt:desc&populate=artist`)
   const json = await response.json()
 
   return json.data.map(({attributes}) => attributes)
