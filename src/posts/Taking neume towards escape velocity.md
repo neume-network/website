@@ -6,11 +6,10 @@ description: Detailing the priorities as we develop neume forwards
 permalink: posts/{{ title | slug }}/index.html
 ---
 
-# Taking neume towards escape velocity
 
 *This blog is intended to give some clarity on short and medium term areas of prioritisation of neume development. It is a guide based on the author (Dan Fowler) ’s best view at this time. Development may take different paths depending on the wants and needs of the neume community.*
 
-## Summary
+# Summary
 
 The goal of neume should be that it can hit “escape velocity”, defined as:
 
@@ -22,7 +21,7 @@ All three of the above criteria strongly relate towards pushing onwards from the
 
 Successful transition to escape velocity will see self-perpetuating growth of the project, building on the social scalability foundations that we have already laid.
 
-## Financial independence
+# Financial independence
 
 To date, neume has been solely financially supported by HIFI Labs. The next stage of neume will be built upon more varied funding.
 
@@ -62,7 +61,7 @@ In a well functioning ecosystem, a for-profit service company run by neume would
 
 And thus, this funding route can essentially be seen as building a business around elements that are not yet ready to be ingested and open-sourced by the protocol, and then continuously developing the product line as previous elements are commoditised. 
 
-## Multi-party development requirements
+# Multi-party development requirements
 
 neume’s development roadmap to date has been solely driven by HIFI Lab’s requirements for musicOS. 
 
@@ -76,7 +75,7 @@ However, I am aware that this prioritisation remains driven by myself, and HIFI 
 
 Bringing projects on to neume will not be an overnight victory, and should be seen as a constant endeavour, though it is hoped that there will at some point be a break point where it becomes the de facto infrastructure to build on, and ship to. We should do everything that we can to make neume this.
 
-## Compounding user and developer growth
+# Compounding user and developer growth
 
 A product of the previous escape velocity conditions, but likely the most important of all. neume will be successful once projects (users) and developers using and shipping to it are growing at a steady and then increasing rate.
 
@@ -84,7 +83,7 @@ There are probably reward mechanisms that we can build to encourage this behavio
 
 This area is something that we should develop going forwards. As it stands, we have github commits and open office attendance as measurable indicators, but we should think about more comprehensive metrics to understand how active the project is becoming.
 
-## Managing neume
+# Managing neume
 
 A final section to discuss, though not directly a condition of escape velocity, is the management of neume the project itself.
 
