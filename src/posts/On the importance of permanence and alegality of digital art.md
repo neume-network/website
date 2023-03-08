@@ -50,3 +50,7 @@ Alegality is a subtractive measure to decrease reliance and dependency on instit
 Permanence and alegality are some tools of Jaya Klara Brekke's hacker engineer towards creating autonomous digital policy. The story of ascribe shows us the importance of autonomy, alegality, and permanence - as had we treasured those aspects, then more of its art would be available today.
 
 Tools of the hacker engineer are to be applied with care but are vitally important to understand, practice, and implement to preserve on-chain music, art, and culture.
+
+---
+
+Tim
