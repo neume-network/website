@@ -185,3 +185,7 @@ more eager brains.
 If you're a neume regular, we eagerly await your tickets to solve the above
 problems. If you're new to neume and this read was interesting: Head over to
 [our Discord](https://discord.gg/uP4nTrQKPT) and say "hi!".
+
+---
+
+Tim
