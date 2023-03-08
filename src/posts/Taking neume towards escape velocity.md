@@ -97,4 +97,6 @@ A specific element that is worth highlighting though, in context especially to t
 
 For this, I suggest that we would likely want to establish a “neume LLC” (or equivalent), which could then be the vehicle for the “for-profit services company” detailed above.
 
+---
+
 Dan
