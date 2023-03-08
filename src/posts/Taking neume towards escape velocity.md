@@ -1,3 +1,11 @@
+---
+title: Taking neume towards escape velocity
+date: "2023-03-08"
+tags:
+description: Detailing the priorities as we develop neume forwards
+permalink: posts/{{ title | slug }}/index.html
+---
+
 # Taking neume towards escape velocity
 
 *This blog is intended to give some clarity on short and medium term areas of prioritisation of neume development. It is a guide based on the author (Dan Fowler) ’s best view at this time. Development may take different paths depending on the wants and needs of the neume community.*
