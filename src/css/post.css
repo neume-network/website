@@ -31,7 +31,7 @@ h2 {
 .post__content {
   margin-top: 1rem;
   word-wrap: break-word;
-  /* color: var(--charcoal); */
+  color: var(--white);
 }
 
 .post__content p,
