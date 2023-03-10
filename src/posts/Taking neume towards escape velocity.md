@@ -51,13 +51,13 @@ Not specifically a route towards financial independence, but a very important ac
 
 The purpose of open infrastructure and composability is to alleviate the need for parallel development within organisations, a core issue in traditional industries. And thus, our aim at neume should be for it to be attractive for projects to develop within it, rather than in parallel to it. 
 
-### 4. For-profit service company built alongside neume
+### 4. Not-for-profit service company built alongside neume
 
 A more adventurous, but ultimately sustainable, route towards financial independence for neume will be to start a service company alongside neume that funds the project out of revenue that it generates.
 
 Examples of services that could be built: NFT database caching and provision, rights and authority database, NFT accuracy insurance, etc.  
 
-In a well functioning ecosystem, a for-profit service company run by neume would be in competition with other companies for the services that it provides, and ultimately the majority of which would become commoditised into the network over the time. 
+In a well functioning ecosystem, a not-for-profit service company run by neume would be in competition with other companies for the services that it provides, and ultimately the majority of which would become commoditised into the network over the time. 
 
 And thus, this funding route can essentially be seen as building a business around elements that are not yet ready to be ingested and open-sourced by the protocol, and then continuously developing the product line as previous elements are commoditised. 
 
@@ -95,7 +95,7 @@ For now, I would propose that we continue management of the project as it is, bu
 
 A specific element that is worth highlighting though, in context especially to the funding options above, is that some will likely require the establishment of a treasury, and the accompanying legal and financial requirements that come with that.
 
-For this, I suggest that we would likely want to establish a “neume LLC” (or equivalent), which could then be the vehicle for the “for-profit services company” detailed above.
+For this, I suggest that we would likely want to establish a “neume LLC” (or equivalent), which could then be the vehicle for the “not-for-profit services company” detailed above.
 
 ---
 
