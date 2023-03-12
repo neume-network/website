@@ -31,23 +31,16 @@
 
 .stats {
   margin-top: 50px;
-  justify-content: center;
-  flex-direction: row;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  text-align: center;
+  display: grid;
+  grid-template-columns: minmax(50px, 1fr) minmax(50px, 1fr);
   border: 2px solid var(--green);
   color: white;
   box-shadow: 5px 5px 0 white;
   font-size: 16px;
-  position: relative;
   max-width: 650px;
 }
 
 .stats div {
-  width: 50%;
-  max-width: 50%;
   padding: 15px 10px;
 }
 
