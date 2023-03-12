@@ -7,33 +7,42 @@ layout: base
     <div class="intro">
       <img src="images/neume-icon-black.svg"/>{{ content | safe }}
     </div>
-
-    {% if site.socialLinks %}
-      <ul class="hero__social-links">
-        {% for item in site.socialLinks %}
-          {% set externalAttribute = '' %}
-
-          {% if item.external %}
-            {% set externalAttribute = 'target="_blank" rel="noopener noreferrer"' %}
-          {% endif %}
-
-          <li>
-            <a href="{{ item.url | url }}" {{ externalAttribute | safe }}>
-              <img class="icon-white-mask" src="images/{{item.text}}-icon.svg"/>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
+    {% if site.socialLinks %}{% endif %}
   </div>
-
 </header>
-
-<section class="post-list__wrapper">
-
-  {% set postslist = collections.posts | head(-3) %}
-  {% include "posts-list.njk" %}
-
+<section class="stats-wrapper">
+  <section class="stats">
+    <div class="b">INDEXED TRACKS</div>
+    <div class="inverted b">{{ musicos.trackCount }}</div>
+    <div class="b inverted">CATALOG</div>
+    <div>{{ musicos.platforms.catalog }}</div>
+    <div class="b inverted">SOUND.XYZ</div>
+    <div>{{ musicos.platforms.soundProtocol + musicos.platforms.soundProtocol }}</div>
+    <div class="b inverted">MINT SONGS</div>
+    <div>{{ musicos.platforms.mintSongs }}</div>
+    <div class="b inverted">NOIZD</div>
+    <div>{{ musicos.platforms.noizd }}</div>
+    <div class="b inverted">LENS</div>
+    <div>
+      <i>SOON</i>
+    </div>
+    <div class="b inverted">DECENT</div>
+    <div>
+      <i>SOON</i>
+    </div>
+  </section>
+  <section class="stats"></section>
+  <section class="stats inverted">
+    <div class="b inverted">10 LATEST TRACKS</div>
+    <div class="b">BLOCK NUMBER: {{ musicos.lastSyncedBlock }}</div>
+    <div class="b">ARTIST</div>
+    <div class="b inverted">TRACK</div>
+    {% for track in musicos.latestTracks %}
+      <div class="b inverted">
+        {{ track.artist.name.toUpperCase() }}</div>
+      <div class="">
+        {{ track.title.toUpperCase() }}</div>
+    {% endfor %}
+  </section>
+  <section class="stats"></section>
 </section>
-
-<a class="all-posts-link" href="{{ '/blog/' | url }}">View All Posts</a>
