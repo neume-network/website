@@ -39,3 +39,7 @@ neume is useful when it is being utilised in real world experimentation; core to
 The world of blockchain/crypto/web3 is a constantly evolving and ever-changing environment and while we feel like we have a pretty good idea around what neume needs to become to support the next generation of music and the creative industries, there will no doubt be examples along the way that we can build towards to accelerate that journey.
 
 If you feel like neume is something that could enable your idea, then please reach out across any of the channels detailed above and we can discuss further.
+
+---
+
+Dan

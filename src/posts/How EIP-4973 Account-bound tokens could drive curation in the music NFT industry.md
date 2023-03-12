@@ -327,3 +327,7 @@ artists alike.
 EIP-4973 Account-bound tokens are the basis for expressing consensual
 agreements on-chain. Their lack of permissions in minting makes them ideal to
 be applied broadly and in a true peer to peer fashion.
+
+---
+
+Tim

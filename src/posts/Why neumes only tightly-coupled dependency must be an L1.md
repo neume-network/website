@@ -53,3 +53,7 @@ With the neume network, I'm confidently giving away these key lessons within its
 We've built neume with composability in mind. It's free software, and technically it doesn't really "run anywhere." It's credible neutrally constructed, and I'm holding myself accountable for the relationship that it maintains with everything using it. Neume should be like Linux: You may regret using it because it won't function well all the time - but you should never regret adopting it because you find out later that its maintainers are playing a power game for the bucks in your wallet.
 
 And that's why we're steering clear of any major dependencies but Ethereum mainnet or other potential L1s. It's because this extractive property of software services wanting to monetize is potentially transitive, meaning that if we were to integrate, e.g., the graph protocol, and they'd be "turning on monetization," then that'd affect us too and we want to avoid that.
+
+---
+
+Tim
