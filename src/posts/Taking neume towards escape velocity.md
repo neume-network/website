@@ -55,7 +55,7 @@ The purpose of open infrastructure and composability is to alleviate the need fo
 
 A more adventurous, but ultimately sustainable, route towards financial independence for neume will be to start a service company alongside neume that funds the project out of revenue that it generates.
 
-Examples of services that could be built: NFT database caching and provision, rights and authority database, NFT accuracy insurance, etc.  
+Examples of services that could be built: platform integrations, NFT database caching and provision, rights and authority database, NFT accuracy insurance, etc.  
 
 In a well functioning ecosystem, a not-for-profit service company run by neume would be in competition with other companies for the services that it provides, and ultimately the majority of which would become commoditised into the network over the time. 
 
